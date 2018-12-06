@@ -33,9 +33,9 @@ Output #8: 9
 Output #9: 9
 Output #10: 7
 
-##Application <p>
 
-设计思路:
+## Application <p>
+## 设计思路:
 1.将每个字母作为Town的唯一标识，这些Town的集合信息通过读取townLine.properties获取
 2.将获取的Town集合信息转为二维矩阵，这里就涉及到如何将每个Town与二维矩阵的每行的index进行匹配起来;
 我们将Town集合数据放进到TreeSet之中，然后遍历这些Town（每次遍历出来顺序都是一致的），最先出来的Town就对应的二维矩阵行和列
