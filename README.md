@@ -22,16 +22,16 @@ Test Input:
 For the test input, the towns are named using the first few letters of the alphabet from A to D.  A route between two towns (A to B) with a distance of 5 is represented as AB5.
 Graph: AB5, BC4, CD8, DC8, DE6, AD5, CE2, EB3, AE7
 Expected Output:
-Output #1: 9
-Output #2: 5
-Output #3: 13
-Output #4: 22
-Output #5: NO SUCH ROUTE
-Output #6: 2
-Output #7: 3
-Output #8: 9
-Output #9: 9
-Output #10: 7
+Output #1: 9<p>
+Output #2: 5<p>
+Output #3: 13<p>
+Output #4: 22<p>
+Output #5: NO SUCH ROUTE<p>
+Output #6: 2<p>
+Output #7: 3<p>
+Output #8: 9<p>
+Output #9: 9<p>
+Output #10: 7<p>
 
 
 ## Application <p>
