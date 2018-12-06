@@ -33,7 +33,7 @@ Output #8: 9
 Output #9: 9
 Output #10: 7
 
-#Application
+##Application
 
 设计思路:
 1.将每个字母作为Town的唯一标识，这些Town的集合信息通过读取townLine.properties获取
