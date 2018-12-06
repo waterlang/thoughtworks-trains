@@ -33,7 +33,7 @@ Output #8: 9
 Output #9: 9
 Output #10: 7
 
-##Application
+##Application <p>
 
 设计思路:
 1.将每个字母作为Town的唯一标识，这些Town的集合信息通过读取townLine.properties获取
@@ -42,5 +42,5 @@ Output #10: 7
 的index都为0，其他依次类推。这样就把Town的信息与二维距阵的index就匹配起来了
 3.通过深度优先算法查找各线路方案，迪特斯特拉算法不能解决有回路的情况所以没有采用
 
-##使用测试
+##使用测试 <p>
 通过运行test模块下com.tw.trains.test包的test case
