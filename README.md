@@ -22,25 +22,25 @@ Test Input:
 For the test input, the towns are named using the first few letters of the alphabet from A to D.  A route between two towns (A to B) with a distance of 5 is represented as AB5.
 Graph: AB5, BC4, CD8, DC8, DE6, AD5, CE2, EB3, AE7
 Expected Output:
-Output #1: 9
-Output #2: 5
-Output #3: 13
-Output #4: 22
-Output #5: NO SUCH ROUTE
-Output #6: 2
-Output #7: 3
-Output #8: 9
-Output #9: 9
-Output #10: 7
+Output #1: 9<p>
+Output #2: 5<p>
+Output #3: 13<p>
+Output #4: 22<p>
+Output #5: NO SUCH ROUTE<p>
+Output #6: 2<p>
+Output #7: 3<p>
+Output #8: 9<p>
+Output #9: 9<p>
+Output #10: 7<p>
 
-#Application
 
-设计思路:
-1.将每个字母作为Town的唯一标识，这些Town的集合信息通过读取townLine.properties获取
-2.将获取的Town集合信息转为二维矩阵，这里就涉及到如何将每个Town与二维矩阵的每行的index进行匹配起来;
+## Application <p>
+## 设计思路:
+1.将每个字母作为Town的唯一标识，这些Town的集合信息通过读取townLine.properties获取<p>
+2.将获取的Town集合信息转为二维矩阵，这里就涉及到如何将每个Town与二维矩阵的每行的index进行匹配起来;<p>
 我们将Town集合数据放进到TreeSet之中，然后遍历这些Town（每次遍历出来顺序都是一致的），最先出来的Town就对应的二维矩阵行和列
-的index都为0，其他依次类推。这样就把Town的信息与二维距阵的index就匹配起来了
-3.通过深度优先算法查找各线路方案，迪特斯特拉算法不能解决有回路的情况所以没有采用
+的index都为0，其他依次类推。这样就把Town的信息与二维距阵的index就匹配起来了<p>
+3.通过深度优先算法查找各线路方案，迪特斯特拉算法不能解决有回路的情况所以没有采用<p>
 
-##使用测试
+## 使用测试 <p>
 通过运行test模块下com.tw.trains.test包的test case
